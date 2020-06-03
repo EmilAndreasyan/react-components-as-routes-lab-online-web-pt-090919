@@ -6,7 +6,7 @@ const Actors = () => {
     <div>
       {/*{code here}*/}
       <h1>Actors Page</h1>
-      {actors.map(actor => {
+      {actors.forEach(actor => {
         return <div>{actor.name}</div>
       })}
       {actors.movies.map(movie => {
